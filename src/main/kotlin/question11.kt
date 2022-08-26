@@ -1,7 +1,7 @@
 fun main() {
-    val firstMatrix = Matrix(arrayOf(intArrayOf(3,-2,5), intArrayOf(3,0,4)),2,3)
-    val secondMatrix = Matrix(arrayOf(intArrayOf(2,3),intArrayOf(-9,0), intArrayOf(0,4)),3,2)
-    val secondMatrix1 = Matrix(arrayOf(intArrayOf(6,3), intArrayOf(9,0), intArrayOf(5,4)),3,2)
+    val firstMatrix = Matrix(arrayOf(intArrayOf(1, 2, 3), intArrayOf(4, 5, 6)),2,3)
+    val secondMatrix = Matrix(arrayOf(intArrayOf(6, 7),intArrayOf(-9,0), intArrayOf(0,4)),3,2)
+    val secondMatrix1 = Matrix(arrayOf(intArrayOf(6,7), intArrayOf(9,0), intArrayOf(5,4)),3,2)
 
     println("********** Addition **********")
     println("Matrix:1 ")
